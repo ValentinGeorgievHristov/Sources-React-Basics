@@ -3,7 +3,7 @@
 function TodoItem(){
 
     return (
-        <div className="TodoItem">
+        <div className="todo-item">
           <input type="checkbox" />
           <p>Placeholder text here</p>
         </div>
