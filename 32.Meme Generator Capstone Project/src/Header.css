@@ -1,0 +1,15 @@
+.imgStyle{
+height: 2rem;  
+ display: inline-block; 
+}
+
+.paragraphStyle{
+    width: 50px;
+    height: 5rem;
+    display: inline-block; 
+    color: red;
+}
+
+.headerBackground{
+background-color: purple;
+}
