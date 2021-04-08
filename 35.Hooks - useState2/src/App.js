@@ -18,7 +18,7 @@ const onCounterButtonClickHandler = () => {
 const onStepSelectChangeHandler = (e) => {
     const stepValue = Number(e.target.value);
 
-    //setState(oldState => ({...oldState, step:stepValue })); // ---> МНОГО ПО- ЛЕСЕН И КЪС СИНТАКСИС <---
+    //setState(oldState => ({...oldState, step:stepValue }));
     setStep(stepValue);
 }
 
