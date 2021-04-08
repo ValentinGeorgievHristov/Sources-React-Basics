@@ -7,7 +7,8 @@ const App = () => { // ПО-КЪС ЗАПИС ЗА СЛУЧАИ, В КОИТО �
 //     step:1,
 // });
 
-const [count, setCount] = useState(1)
+//count = this.state.count // setCount = this.setState -> пояснява count и step от ред 11
+const [count, setCount] = useState(1) 
 const [step, setStep] = useState(1)
 
 const onCounterButtonClickHandler = () => {
